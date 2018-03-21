@@ -25,6 +25,7 @@
 			<tr>
 				<th>Student ID</th>
 				<th>Name</th>
+				<th>Birth Date</th>
 				<th>Age</th>
 				<th>NIC</th>
 				<th>Address</th>
@@ -39,6 +40,7 @@
 			<tr>
 				<td><%=s.getId()%></td>
 				<td><%=s.getName()%></td>
+				<td><%=s.getDob()%></td>
 				<td><%=s.getAge()%></td>
 				<td><%=s.getNic()%></td>
 				<td><%=s.getAddress()%></td>

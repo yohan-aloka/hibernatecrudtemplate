@@ -29,6 +29,10 @@
 					<td><input type="text" name="name" value="${student.name}" /></td>
 				</tr>
 				<tr>
+					<td>Birth Date : </td>
+					<td><input type="date" name="dob" value="${student.dob}" /></td>
+				</tr>
+				<tr>
 					<td>Age :</td>
 					<td><input type="text" name="age" value="${student.age}" /></td>
 				</tr>
